@@ -1,0 +1,24 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/a962332430/spring-cloud-study/config-server
+          username: a962332430
+          password: 921103chen
+          search-paths: repo
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8671/eureka
+
+
+
+
