@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/a962332430/spring-cloud-study/config-server
+          uri: https://github.com/a962332430/spring-cloud-study/config-server/
           username: a962332430
           password: 921103chen
-          search-paths: repo
+          search-paths: config-repo
       label: master
 
 eureka:
