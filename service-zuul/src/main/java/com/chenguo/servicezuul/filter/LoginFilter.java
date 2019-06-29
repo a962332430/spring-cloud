@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import javax.servlet.http.HttpServletRequest;
 
 /***************************************************************************
- * @Description - zuul过滤器
+ * @Description - 配置zuul过滤器
  *
  * @author chenguo 2019年06月23日
  * @version 1.0
